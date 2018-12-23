@@ -211,12 +211,12 @@ linux-image-amd64-dbg - Debugging symbols for Linux amd64 configuration (meta-pa
 发现里面有 `3.16.0` 的版本正好是我们需要的，在安装升级内核之前，最好从 `backports` 源处对该系统中的一些软件进行更新，以防在安装中出现依赖包的版本错误。
 
 ```bash
-$ sudo apt-get -t wheezy-backports upgrade
+$ sudo apt-get -t jessie-backports upgrade
 ```
 更新完成后，就可以选择 Linux 内核的版本进行升级了
 
 ```bash
-$ sudo apt-get -t wheezy-backports install linux-image-3.16.0-0.bpo.4-amd64
+$ sudo apt-get -t jessie-backports install linux-image-3.16.0-0.bpo.4-amd64
 ```
 之后重启 VPS 就完成了 Linux 内核的升级，重启看查看一下结果
 
