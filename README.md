@@ -3,10 +3,10 @@
 ## Vultr VPS 提供商
 这次我们弃用了搬瓦工，理由正如上面提到的，搬瓦工使用的是 OpenVZ 的架构，而 OpenVZ 架构是不支持 Docker 和后面提到的 `TCP-BBR` 即 TCP 拥塞控制技术的。
 
-经过比较之后，选择了 [Vultr](https://www.vultr.com/?ref=7656065) 这个 VPS 提供商。原因是 [Vultr](https://www.vultr.com/?ref=7656065) 提供基于 KVM 虚拟的 VPS，可以支持 Docker 和 TCP-BBR 技术，并且其现在有每个月只需 `2.5 美元`的选择，对于搭建梯子和个人博客搭建等日常学习来说已经绰绰有余了。
+经过比较之后，选择了 [Vultr](https://www.vultr.com/?ref=7656065) 这个 VPS 提供商。原因是 [Vultr](https://www.vultr.com/?ref=7825436-4F) 提供基于 KVM 虚拟的 VPS，可以支持 Docker 和 TCP-BBR 技术，并且其现在有每个月只需 `2.5 美元`的选择，对于搭建梯子和个人博客搭建等日常学习来说已经绰绰有余了。
 
 ### 充值
-注册了 [Vultr](https://www.vultr.com/?ref=7656065) 帐号后，必须先充值才可以进行 VPS 的选择，现在优惠活动是充值 5 美元赠送 5 美元。像之前赠送 20 美元的活动已经取消了。
+注册了 [Vultr](https://www.vultr.com/?ref=7825436-4F) 帐号后，必须先充值才可以进行 VPS 的选择，现在优惠活动使用我提供的链接可以获得 50 美金的金额
 
 
 ![](https://user-gold-cdn.xitu.io/2017/5/2/224fbf1fd314e3ee08543554e0b86fdc)
