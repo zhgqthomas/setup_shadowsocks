@@ -270,7 +270,7 @@ sub   4096R/F273FCD8 2017-02-22
 **For amd64:**
 ```bash
 $ sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian \
    $(lsb_release -cs) \
    stable"
 ```
